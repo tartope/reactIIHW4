@@ -18,7 +18,7 @@ export const Form = () => {
             <br/>
             <input type="text" placeholder='Last name'value={lName} onChange={e=>{setLName(e.target.value)}}/>
             <br/>
-            <input type="submit" />
+            <input type="submit" value={"GREET ME"}/>
         </form>
     </div>
   )
